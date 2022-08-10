@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta name="description" content="Webpage description goes here" />
+ <meta charset="utf-8">
+ <title>Change_me</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="author" content="">
+ <link rel="stylesheet" href="css/style.css">
+ <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+ 
+    <div class="container">
+        <form>
+            <label>Class: <input type="text"></label>
+            <label>Subject: <input type="text"></label>
+            <label>:Date <input type="text"></label>
+            <input type="submit" value="Submit">
+        </form>
+        <p>
+            Class<span id="resultClass">____</span>. 
+            Subject<span id="resultSubject">____</span>.
+            Date<span id="resultDate">____</span>. 
+            </p>
+     
+    </div>
+    <script>
+        document.getElementById("class").onclick = function(){
+        var Class = prompt("Enter class");
+      document.getElementById("resultClass").innerText = Class;
+    }
+    document.getElementById("class").onclick = function(){
+        var Class = prompt("Enter class");
+      document.getElementById("resultClass").innerText = Class;
+    }
+    
+    </script>
+    </body>
+    </html>
